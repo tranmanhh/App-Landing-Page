@@ -1,0 +1,82 @@
+.jumbotron {
+  background: url(/styling/images/background.jpg);
+  background-size: 100% 100%;
+  height: 600px;
+}
+
+.jumbotron #logo {
+  width: 75px;
+  height: 75px;
+}
+
+.jumbotron #feature {
+  color: white;
+  margin-top: 60px;
+}
+
+.jumbotron button {
+  background-color: rgba(152, 86, 57, 0.5);
+  color: white;
+  border-radius: 10px;
+  width: 160px;
+  margin: 20px 20px 0 0;
+}
+
+.jumbotron button:hover, .jumbotron button:active {
+  background-color: #985639;
+}
+
+#download {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#download img {
+  width: 200px;
+  margin: 20px;
+}
+
+#footer {
+  background-color: #eee;
+  font-size: 15px;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .jumbotron {
+    height: 410px;
+  }
+  .jumbotron #logo {
+    width: 50px;
+    height: 50px;
+  }
+  .jumbotron #feature {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .jumbotron {
+    height: 410px;
+  }
+  .jumbotron #logo {
+    width: 50px;
+    height: 50px;
+  }
+  .jumbotron #feature {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .jumbotron #feature p, .jumbotron #feature button {
+    font-size: 13px;
+  }
+  .jumbotron #feature button {
+    width: 130px;
+  }
+  #download img {
+    width: 100px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

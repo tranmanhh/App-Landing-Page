@@ -1,0 +1,14 @@
+{
+  "name": "best-holiday-finder",
+  "version": "1.0.0",
+  "description": "A practice to create an App Landing Page using HTML, SASS, CSS, and Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "compile_sass": "node-sass styling/style.scss style.css"
+  },
+  "author": "Manh Dinh",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
